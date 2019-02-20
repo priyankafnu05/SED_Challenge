@@ -1,0 +1,17 @@
+--
+
+#This includes the AWS credentials that needs to be accessed 
+
+aws_access_key: "$AWSACCESSKEY"
+aws_secret_key: "$AWSSECRETKEY"
+aws_region: "eu-east-1"
+
+#This include the cider block for the provied VPCs
+vpc_name: "$VPC_name"
+vpc_cidr_block: "10.0.0.0/16"
+
+#This has the subnet lists
+public_subnet_1_cidr: "10.0.1.0/24"
+private_subnet_1_cidr: "10.0.2.0/24"
+public_subnet_2_cidr: "10.0.3.0/24"
+private_subnet_2_cidr: "10.0.4.0/24"
